@@ -2,7 +2,7 @@
   "name": "vue2-template",
   "version": "0.0.0",
   "scripts": {
-    "dev": "vite",
+    "dev": "vite --open",
     "build": "run-p type-check build-only",
     "preview": "vite preview --port 4173",
     "preinstall": "npx only-allow pnpm",
