@@ -3,7 +3,11 @@
     "strict": true,
     "allowJs": true,
     "noImplicitAny": true,
+    "forceConsistentCasingInFileNames": true,
+    "skipLibCheck": true,
     "target": "ESNext",
+    "esModuleInterop": true,
+    "isolatedModules": true,
     "lib": ["DOM", "ESNext"],
     "module": "ESNext",
     "moduleResolution": "Node",
@@ -17,6 +21,6 @@
       "@/*": ["./src/*"]
     }
   },
-  "include": ["env.d.ts", "src/**/*", "src/**/*.vue"],
+  "include": ["*.d.ts", "src/**/*", "src/**/*.vue"],
   "exclude": ["node_modules"]
 }
