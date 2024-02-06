@@ -18,8 +18,8 @@ dependencies:
     specifier: ^2.7.14
     version: 2.7.14
   vue-router:
-    specifier: ^3.6.5
-    version: 3.6.5(vue@2.7.14)
+    specifier: ^4.0.0
+    version: 4.2.5(vue@2.7.14)
 
 devDependencies:
   '@commitlint/cli':
@@ -247,7 +247,7 @@ packages:
       lodash.merge: 4.6.2
       lodash.uniq: 4.5.0
       resolve-from: 5.0.0
-      ts-node: 10.9.1(@types/node@20.5.1)(typescript@4.7.4)
+      ts-node: 10.9.1(@types/node@16.18.58)(typescript@4.7.4)
       typescript: 4.7.4
     transitivePeerDependencies:
       - '@swc/core'
@@ -1314,7 +1314,7 @@ packages:
     dependencies:
       '@types/node': 20.5.1
       cosmiconfig: 8.3.6(typescript@4.7.4)
-      ts-node: 10.9.1(@types/node@20.5.1)(typescript@4.7.4)
+      ts-node: 10.9.1(@types/node@16.18.58)(typescript@4.7.4)
       typescript: 4.7.4
     dev: true
 
@@ -3721,7 +3721,7 @@ packages:
     engines: {node: '>=8'}
     dev: true
 
-  /ts-node@10.9.1(@types/node@20.5.1)(typescript@4.7.4):
+  /ts-node@10.9.1(@types/node@16.18.58)(typescript@4.7.4):
     resolution: {integrity: sha512-NtVysVPkxxrwFGUUxGYhfux8k78pQB3JqYBXlLRZgdGUqTO5wU/UyHop5p70iEbGhB7q5KmiZiU0Y3KlJrScEw==}
     hasBin: true
     requiresBuild: true
@@ -3741,7 +3741,7 @@ packages:
       '@tsconfig/node12': 1.0.11
       '@tsconfig/node14': 1.0.3
       '@tsconfig/node16': 1.0.4
-      '@types/node': 20.5.1
+      '@types/node': 16.18.58
       acorn: 8.10.0
       acorn-walk: 8.2.0
       arg: 4.1.3
@@ -3962,11 +3962,12 @@ packages:
       - supports-color
     dev: true
 
-  /vue-router@3.6.5(vue@2.7.14):
-    resolution: {integrity: sha512-VYXZQLtjuvKxxcshuRAwjHnciqZVoXAjTjcqBTz4rKc8qih9g9pI3hbDjmqXaHdgL3v8pV6P8Z335XvHzESxLQ==}
+  /vue-router@4.2.5(vue@2.7.14):
+    resolution: {integrity: sha512-DIUpKcyg4+PTQKfFPX88UWhlagBEBEfJ5A8XDXRJLUnZOvcpMF8o/dnL90vpVkGaPbjvXazV/rC1qBKrZlFugw==}
     peerDependencies:
-      vue: ^2
+      vue: ^3.2.0
     dependencies:
+      '@vue/devtools-api': 6.5.1
       vue: 2.7.14
     dev: false
 
