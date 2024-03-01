@@ -1,8 +1,3 @@
 {
-  "$schema": "https://docs.renovatebot.com/renovate-schema.json",
-  "extends": [
-    "config:recommended"
-  ],
-  "automerge": true,
-  "ignoreDeps": ["vue", "vue-router"]
+  "extends": ["github>unjs/renovate-config"]
 }
