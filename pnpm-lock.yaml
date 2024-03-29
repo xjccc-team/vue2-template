@@ -29,8 +29,8 @@ devDependencies:
     specifier: ^19.1.0
     version: 19.1.0
   '@rushstack/eslint-patch':
-    specifier: ^1.8.0
-    version: 1.8.0
+    specifier: ^1.10.0
+    version: 1.10.0
   '@types/node':
     specifier: ^20.11.30
     version: 20.11.30
@@ -39,7 +39,7 @@ devDependencies:
     version: 6.9.14
   '@vitejs/plugin-legacy':
     specifier: ^5.3.2
-    version: 5.3.2(terser@5.29.2)(vite@5.2.6)
+    version: 5.3.2(terser@5.30.0)(vite@5.2.6)
   '@vitejs/plugin-vue2':
     specifier: ^2.3.1
     version: 2.3.1(vite@5.2.6)(vue@2.7.16)
@@ -80,8 +80,8 @@ devDependencies:
     specifier: ^3.2.5
     version: 3.2.5
   terser:
-    specifier: ^5.29.2
-    version: 5.29.2
+    specifier: ^5.30.0
+    version: 5.30.0
   typescript:
     specifier: ~5.4.3
     version: 5.4.3
@@ -90,7 +90,7 @@ devDependencies:
     version: 0.17.5
   vite:
     specifier: ^5.2.6
-    version: 5.2.6(@types/node@20.11.30)(less@4.2.0)(terser@5.29.2)
+    version: 5.2.6(@types/node@20.11.30)(less@4.2.0)(terser@5.30.0)
   vue-tsc:
     specifier: ^2.0.7
     version: 2.0.7(typescript@5.4.3)
@@ -1885,8 +1885,8 @@ packages:
     dev: true
     optional: true
 
-  /@rushstack/eslint-patch@1.8.0:
-    resolution: {integrity: sha512-0HejFckBN2W+ucM6cUOlwsByTKt9/+0tWhqUffNIcHqCXkthY/mZ7AuYPK/2IIaGWhdl0h+tICDO0ssLMd6XMQ==}
+  /@rushstack/eslint-patch@1.10.0:
+    resolution: {integrity: sha512-ih6xH1dOGBTP/RNc/QbnVLLa/s80SkXydI7tnyq+a2eIdd7gDsmSpD1Jz7T1oCa+GIsVTyQCR3cW0tlYB97iFg==}
     dev: true
 
   /@types/conventional-commits-parser@5.0.0:
@@ -2053,7 +2053,7 @@ packages:
     resolution: {integrity: sha512-zuVdFrMJiuCDQUMCzQaD6KL28MjnqqN8XnAqiEq9PNm/hCPTSGfrXCOfwj1ow4LFb/tNymJPwsNbVePc1xFqrQ==}
     dev: true
 
-  /@vitejs/plugin-legacy@5.3.2(terser@5.29.2)(vite@5.2.6):
+  /@vitejs/plugin-legacy@5.3.2(terser@5.30.0)(vite@5.2.6):
     resolution: {integrity: sha512-8moCOrIMaZ/Rjln0Q6GsH6s8fAt1JOI3k8nmfX4tXUxE5KAExVctSyOBk+A25GClsdSWqIk2yaUthH3KJ2X4tg==}
     engines: {node: ^18.0.0 || >=20.0.0}
     peerDependencies:
@@ -2068,8 +2068,8 @@ packages:
       magic-string: 0.30.7
       regenerator-runtime: 0.14.1
       systemjs: 6.14.3
-      terser: 5.29.2
-      vite: 5.2.6(@types/node@20.11.30)(less@4.2.0)(terser@5.29.2)
+      terser: 5.30.0
+      vite: 5.2.6(@types/node@20.11.30)(less@4.2.0)(terser@5.30.0)
     transitivePeerDependencies:
       - supports-color
     dev: true
@@ -2081,7 +2081,7 @@ packages:
       vite: ^3.0.0 || ^4.0.0 || ^5.0.0
       vue: ^2.7.0-0
     dependencies:
-      vite: 5.2.6(@types/node@20.11.30)(less@4.2.0)(terser@5.29.2)
+      vite: 5.2.6(@types/node@20.11.30)(less@4.2.0)(terser@5.30.0)
       vue: 2.7.16
     dev: true
 
@@ -4760,8 +4760,8 @@ packages:
     resolution: {integrity: sha512-hQv45irdhXudAOr8r6SVSpJSGtogdGZUbJBRKCE5nsIS7tsxxvnIHqT4IOPWj+P+HcSzeWzHlGCGpmhPDIKe+w==}
     dev: true
 
-  /terser@5.29.2:
-    resolution: {integrity: sha512-ZiGkhUBIM+7LwkNjXYJq8svgkd+QK3UUr0wJqY4MieaezBSAIPgbSPZyIx0idM6XWK5CMzSWa8MJIzmRcB8Caw==}
+  /terser@5.30.0:
+    resolution: {integrity: sha512-Y/SblUl5kEyEFzhMAQdsxVHh+utAxd4IuRNJzKywY/4uzSogh3G219jqbDDxYu4MXO9CzY3tSEqmZvW6AoEDJw==}
     engines: {node: '>=10'}
     hasBin: true
     dependencies:
@@ -4957,7 +4957,7 @@ packages:
     resolution: {integrity: sha512-EPD5q1uXyFxJpCrLnCc1nHnq3gOa6DZBocAIiI2TaSCA7VCJ1UJDMagCzIkXNsUYfD1daK//LTEQ8xiIbrHtcw==}
     dev: true
 
-  /vite@5.2.6(@types/node@20.11.30)(less@4.2.0)(terser@5.29.2):
+  /vite@5.2.6(@types/node@20.11.30)(less@4.2.0)(terser@5.30.0):
     resolution: {integrity: sha512-FPtnxFlSIKYjZ2eosBQamz4CbyrTizbZ3hnGJlh/wMtCrlp1Hah6AzBLjGI5I2urTfNnpovpHdrL6YRuBOPnCA==}
     engines: {node: ^18.0.0 || >=20.0.0}
     hasBin: true
@@ -4990,7 +4990,7 @@ packages:
       less: 4.2.0
       postcss: 8.4.38
       rollup: 4.13.0
-      terser: 5.29.2
+      terser: 5.30.0
     optionalDependencies:
       fsevents: 2.3.3
     dev: true
