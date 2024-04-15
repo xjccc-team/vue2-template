@@ -9,7 +9,7 @@
     "postinstall": "husky install",
     "build-only": "vite build",
     "type-check": "vue-tsc --noEmit",
-    "lint": "eslint . --ext .vue,.js,.jsx,.cjs,.mjs,.ts,.tsx,.cts,.mts --fix --ignore-path .gitignore",
+    "lint": "eslint -c eslint.config.mjs",
     "format": "prettier --write src/",
     "commit": "git-cz"
   },
@@ -19,7 +19,7 @@
     }
   },
   "lint-staged": {
-    "*.{ts,vue}": "eslint --fix"
+    "*.{ts,vue}": "eslint -c eslint.config.mjs --fix"
   },
   "config": {
     "commitizen": {
@@ -36,7 +36,7 @@
   "devDependencies": {
     "@commitlint/cli": "^19.2.1",
     "@commitlint/config-conventional": "^19.1.0",
-    "@rushstack/eslint-patch": "^1.10.2",
+    "@eslint/eslintrc": "^3.0.2",
     "@types/node": "^20.12.7",
     "@types/qs": "^6.9.14",
     "@vitejs/plugin-legacy": "^5.3.2",

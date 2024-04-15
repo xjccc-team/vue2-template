@@ -28,9 +28,9 @@ devDependencies:
   '@commitlint/config-conventional':
     specifier: ^19.1.0
     version: 19.1.0
-  '@rushstack/eslint-patch':
-    specifier: ^1.10.2
-    version: 1.10.2
+  '@eslint/eslintrc':
+    specifier: ^3.0.2
+    version: 3.0.2
   '@types/node':
     specifier: ^20.12.7
     version: 20.12.7
@@ -1884,10 +1884,6 @@ packages:
     requiresBuild: true
     dev: true
     optional: true
-
-  /@rushstack/eslint-patch@1.10.2:
-    resolution: {integrity: sha512-hw437iINopmQuxWPSUEvqE56NCPsiU8N4AYtfHmJFckclktzK9YQJieD3XkDCDH4OjL+C7zgPUh73R/nrcHrqw==}
-    dev: true
 
   /@types/conventional-commits-parser@5.0.0:
     resolution: {integrity: sha512-loB369iXNmAZglwWATL+WRe+CRMmmBPtpolYzIebFaX4YA3x+BEfLqhUAV9WanycKI3TG1IMr5bMJDajDKLlUQ==}
