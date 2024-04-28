@@ -31,10 +31,10 @@
     "pinia": "^2.1.7",
     "qs": "^6.12.1",
     "vue": "^2.7.16",
-    "vue-router": "^4.3.1"
+    "vue-router": "^4.3.2"
   },
   "devDependencies": {
-    "@commitlint/cli": "^19.2.2",
+    "@commitlint/cli": "^19.3.0",
     "@commitlint/config-conventional": "^19.2.2",
     "@eslint/eslintrc": "^3.0.2",
     "@types/node": "^20.12.7",
@@ -46,17 +46,17 @@
     "@vue/tsconfig": "^0.5.1",
     "commitizen": "^4.3.0",
     "cz-git": "^1.9.1",
-    "eslint": "^9.0.0",
+    "eslint": "^9.1.1",
     "eslint-plugin-vue": "^9.25.0",
     "husky": "^9.0.11",
     "less": "^4.2.0",
     "lint-staged": "^15.2.2",
     "npm-run-all2": "^6.1.2",
     "prettier": "^3.2.5",
-    "terser": "^5.30.3",
+    "terser": "^5.30.4",
     "typescript": "~5.4.5",
     "unplugin-auto-import": "^0.17.5",
-    "vite": "^5.2.9",
-    "vue-tsc": "^2.0.13"
+    "vite": "^5.2.10",
+    "vue-tsc": "^2.0.14"
   }
 }
