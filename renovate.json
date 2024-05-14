@@ -2,7 +2,7 @@
   "extends": ["github>unjs/renovate-config"],
   "packageRules": [
     {
-      "matchPackageNames": ["vue"],
+      "matchPackageNames": ["vue", "vue-router"],
       "enabled": false
     }
   ]
