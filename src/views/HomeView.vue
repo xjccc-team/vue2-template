@@ -1,11 +1,9 @@
 <template>
-  <div class="contaienr">
-    Home
-  </div>
+  <div class="contaienr">Home</div>
 </template>
 
 <script setup lang="ts">
-onMounted(() => {
-  console.log(111111)
-})
+  onMounted(() => {
+    console.log(111111)
+  })
 </script>

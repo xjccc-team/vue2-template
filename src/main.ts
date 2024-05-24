@@ -9,5 +9,5 @@ Vue.use(PiniaVuePlugin)
 new Vue({
   router,
   pinia: createPinia(),
-  render: h => h(App)
+  render: (h) => h(App)
 }).$mount('#app')
