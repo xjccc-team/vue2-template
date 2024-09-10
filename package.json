@@ -23,7 +23,7 @@
     "vue-router": "^3.6.5"
   },
   "devDependencies": {
-    "@antfu/eslint-config": "^3.2.0",
+    "@antfu/eslint-config": "^3.5.0",
     "@commitlint/cli": "^19.4.1",
     "@commitlint/config-conventional": "^19.4.1",
     "@types/node": "^20.16.5",
@@ -33,7 +33,7 @@
     "@vue/tsconfig": "^0.5.1",
     "commitizen": "^4.3.0",
     "cz-git": "^1.9.4",
-    "eslint": "^9.9.1",
+    "eslint": "^9.10.0",
     "eslint-config-prettier": "^9.1.0",
     "eslint-plugin-prettier": "^5.2.1",
     "eslint-plugin-vue": "^9.28.0",
@@ -42,8 +42,8 @@
     "lint-staged": "^15.2.10",
     "npm-run-all2": "^6.2.2",
     "prettier": "^3.3.3",
-    "terser": "^5.31.6",
-    "typescript": "~5.5.4",
+    "terser": "^5.32.0",
+    "typescript": "~5.6.2",
     "unplugin-auto-import": "^0.18.2",
     "vite": "^5.4.3",
     "vue-tsc": "^2.1.6"
