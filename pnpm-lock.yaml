@@ -24,7 +24,7 @@ dependencies:
 devDependencies:
   '@antfu/eslint-config':
     specifier: ^3.8.0
-    version: 3.8.0(@typescript-eslint/utils@8.8.1)(@vue/compiler-sfc@3.4.27)(eslint@9.13.0)(typescript@5.6.3)
+    version: 3.8.0(@typescript-eslint/utils@8.10.0)(@vue/compiler-sfc@3.4.27)(eslint@9.13.0)(typescript@5.6.3)
   '@commitlint/cli':
     specifier: ^19.5.0
     version: 19.5.0(@types/node@20.16.13)(typescript@5.6.3)
@@ -62,8 +62,8 @@ devDependencies:
     specifier: ^5.2.1
     version: 5.2.1(eslint-config-prettier@9.1.0)(eslint@9.13.0)(prettier@3.3.3)
   eslint-plugin-vue:
-    specifier: ^9.29.0
-    version: 9.29.0(eslint@9.13.0)
+    specifier: ^9.29.1
+    version: 9.29.1(eslint@9.13.0)
   husky:
     specifier: ^9.1.6
     version: 9.1.6
@@ -74,8 +74,8 @@ devDependencies:
     specifier: ^15.2.10
     version: 15.2.10
   npm-run-all2:
-    specifier: ^6.2.4
-    version: 6.2.4
+    specifier: ^6.2.6
+    version: 6.2.6
   prettier:
     specifier: ^3.3.3
     version: 3.3.3
@@ -110,7 +110,7 @@ packages:
       '@jridgewell/trace-mapping': 0.3.25
     dev: true
 
-  /@antfu/eslint-config@3.8.0(@typescript-eslint/utils@8.8.1)(@vue/compiler-sfc@3.4.27)(eslint@9.13.0)(typescript@5.6.3):
+  /@antfu/eslint-config@3.8.0(@typescript-eslint/utils@8.10.0)(@vue/compiler-sfc@3.4.27)(eslint@9.13.0)(typescript@5.6.3):
     resolution: {integrity: sha512-O5QSufPHpKTm0wk1OQ5c2mOZVzCqYV3hIDrt5zt+cOWqiG8YXLPkSOD4fFwjomATtOuUbcLUwkcgY5dErM7aIw==}
     hasBin: true
     peerDependencies:
@@ -163,7 +163,7 @@ packages:
       '@stylistic/eslint-plugin': 2.9.0(eslint@9.13.0)(typescript@5.6.3)
       '@typescript-eslint/eslint-plugin': 8.10.0(@typescript-eslint/parser@8.10.0)(eslint@9.13.0)(typescript@5.6.3)
       '@typescript-eslint/parser': 8.10.0(eslint@9.13.0)(typescript@5.6.3)
-      '@vitest/eslint-plugin': 1.1.7(@typescript-eslint/utils@8.8.1)(eslint@9.13.0)(typescript@5.6.3)
+      '@vitest/eslint-plugin': 1.1.7(@typescript-eslint/utils@8.10.0)(eslint@9.13.0)(typescript@5.6.3)
       eslint: 9.13.0
       eslint-config-flat-gitignore: 0.3.0(eslint@9.13.0)
       eslint-flat-config-utils: 0.4.0
@@ -180,7 +180,7 @@ packages:
       eslint-plugin-toml: 0.11.1(eslint@9.13.0)
       eslint-plugin-unicorn: 56.0.0(eslint@9.13.0)
       eslint-plugin-unused-imports: 4.1.4(@typescript-eslint/eslint-plugin@8.10.0)(eslint@9.13.0)
-      eslint-plugin-vue: 9.29.0(eslint@9.13.0)
+      eslint-plugin-vue: 9.29.1(eslint@9.13.0)
       eslint-plugin-yml: 1.14.0(eslint@9.13.0)
       eslint-processor-vue-blocks: 0.1.2(@vue/compiler-sfc@3.4.27)(eslint@9.13.0)
       globals: 15.11.0
@@ -2631,7 +2631,7 @@ packages:
       vue: 2.7.16
     dev: true
 
-  /@vitest/eslint-plugin@1.1.7(@typescript-eslint/utils@8.8.1)(eslint@9.13.0)(typescript@5.6.3):
+  /@vitest/eslint-plugin@1.1.7(@typescript-eslint/utils@8.10.0)(eslint@9.13.0)(typescript@5.6.3):
     resolution: {integrity: sha512-pTWGW3y6lH2ukCuuffpan6kFxG6nIuoesbhMiQxskyQMRcCN5t9SXsKrNHvEw3p8wcCsgJoRqFZVkOTn6TjclA==}
     peerDependencies:
       '@typescript-eslint/utils': '>= 8.0'
@@ -2644,7 +2644,7 @@ packages:
       vitest:
         optional: true
     dependencies:
-      '@typescript-eslint/utils': 8.8.1(eslint@9.13.0)(typescript@5.6.3)
+      '@typescript-eslint/utils': 8.10.0(eslint@9.13.0)(typescript@5.6.3)
       eslint: 9.13.0
       typescript: 5.6.3
     dev: true
@@ -3822,8 +3822,8 @@ packages:
       eslint: 9.13.0
     dev: true
 
-  /eslint-plugin-vue@9.29.0(eslint@9.13.0):
-    resolution: {integrity: sha512-hamyjrBhNH6Li6R1h1VF9KHfshJlKgKEg3ARbGTn72CMNDSMhWbgC7NdkRDEh25AFW+4SDATzyNM+3gWuZii8g==}
+  /eslint-plugin-vue@9.29.1(eslint@9.13.0):
+    resolution: {integrity: sha512-MH/MbVae4HV/tM8gKAVWMPJbYgW04CK7SuzYRrlNERpxbO0P3+Zdsa2oAcFBW6xNu7W6lIkGOsFAMCRTYmrlWQ==}
     engines: {node: ^14.17.0 || >=16.0.0}
     peerDependencies:
       eslint: ^6.2.0 || ^7.0.0 || ^8.0.0 || ^9.0.0
@@ -5417,8 +5417,8 @@ packages:
     engines: {node: ^14.17.0 || ^16.13.0 || >=18.0.0}
     dev: true
 
-  /npm-run-all2@6.2.4:
-    resolution: {integrity: sha512-h/v0JWs0P12iR076jL0iTi4JzZVaJPnwse2+s4XzaIxwjtybQbQM2kg/Wd7Lxi0iEOXy3ZX2tLPNbm3MqzIFqw==}
+  /npm-run-all2@6.2.6:
+    resolution: {integrity: sha512-tkyb4pc0Zb0oOswCb5tORPk9MvVL6gcDq1cMItQHmsbVk1skk7YF6cH+UU2GxeNLHMuk6wFEOSmEmJ2cnAK1jg==}
     engines: {node: ^14.18.0 || ^16.13.0 || >=18.0.0, npm: '>= 8'}
     hasBin: true
     dependencies:
