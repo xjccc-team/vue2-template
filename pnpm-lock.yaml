@@ -24,7 +24,7 @@ dependencies:
 devDependencies:
   '@antfu/eslint-config':
     specifier: ^4.4.0
-    version: 4.4.0(@typescript-eslint/utils@8.24.1)(@vue/compiler-sfc@3.4.27)(eslint@9.21.0)(typescript@5.8.2)
+    version: 4.4.0(@typescript-eslint/utils@8.26.0)(@vue/compiler-sfc@3.4.27)(eslint@9.21.0)(typescript@5.8.2)
   '@commitlint/cli':
     specifier: ^19.7.1
     version: 19.7.1(@types/node@22.13.9)(typescript@5.8.2)
@@ -62,8 +62,8 @@ devDependencies:
     specifier: ^5.2.3
     version: 5.2.3(eslint-config-prettier@10.0.2)(eslint@9.21.0)(prettier@3.5.3)
   eslint-plugin-vue:
-    specifier: ^9.32.0
-    version: 9.32.0(eslint@9.21.0)
+    specifier: ^10.0.0
+    version: 10.0.0(eslint@9.21.0)(vue-eslint-parser@10.0.0)
   husky:
     specifier: ^9.1.7
     version: 9.1.7
@@ -110,7 +110,7 @@ packages:
       '@jridgewell/trace-mapping': 0.3.25
     dev: true
 
-  /@antfu/eslint-config@4.4.0(@typescript-eslint/utils@8.24.1)(@vue/compiler-sfc@3.4.27)(eslint@9.21.0)(typescript@5.8.2):
+  /@antfu/eslint-config@4.4.0(@typescript-eslint/utils@8.26.0)(@vue/compiler-sfc@3.4.27)(eslint@9.21.0)(typescript@5.8.2):
     resolution: {integrity: sha512-UqZ517Gc6fjjcjHz4e1cDsBX6juixDxIDOpPpn9h6qIcrzTBq3Hc2RfBcU3GYuLrhsmGanmEdtCd0tSg2gJ+cg==}
     hasBin: true
     peerDependencies:
@@ -163,7 +163,7 @@ packages:
       '@stylistic/eslint-plugin': 4.2.0(eslint@9.21.0)(typescript@5.8.2)
       '@typescript-eslint/eslint-plugin': 8.26.0(@typescript-eslint/parser@8.26.0)(eslint@9.21.0)(typescript@5.8.2)
       '@typescript-eslint/parser': 8.26.0(eslint@9.21.0)(typescript@5.8.2)
-      '@vitest/eslint-plugin': 1.1.36(@typescript-eslint/utils@8.24.1)(eslint@9.21.0)(typescript@5.8.2)
+      '@vitest/eslint-plugin': 1.1.36(@typescript-eslint/utils@8.26.0)(eslint@9.21.0)(typescript@5.8.2)
       ansis: 3.17.0
       cac: 6.7.14
       eslint: 9.21.0
@@ -2301,7 +2301,7 @@ packages:
       vue: 2.7.16
     dev: true
 
-  /@vitest/eslint-plugin@1.1.36(@typescript-eslint/utils@8.24.1)(eslint@9.21.0)(typescript@5.8.2):
+  /@vitest/eslint-plugin@1.1.36(@typescript-eslint/utils@8.26.0)(eslint@9.21.0)(typescript@5.8.2):
     resolution: {integrity: sha512-IjBV/fcL9NJRxGw221ieaDsqKqj8qUo7rvSupDxMjTXyhsCusHC6M+jFUNqBp4PCkYFcf5bjrKxeZoCEWoPxig==}
     peerDependencies:
       '@typescript-eslint/utils': ^8.24.0
@@ -2314,7 +2314,7 @@ packages:
       vitest:
         optional: true
     dependencies:
-      '@typescript-eslint/utils': 8.24.1(eslint@9.21.0)(typescript@5.8.2)
+      '@typescript-eslint/utils': 8.26.0(eslint@9.21.0)(typescript@5.8.2)
       eslint: 9.21.0
       typescript: 5.8.2
     dev: true
@@ -3562,6 +3562,23 @@ packages:
       eslint: 9.21.0
     dev: true
 
+  /eslint-plugin-vue@10.0.0(eslint@9.21.0)(vue-eslint-parser@10.0.0):
+    resolution: {integrity: sha512-XKckedtajqwmaX6u1VnECmZ6xJt+YvlmMzBPZd+/sI3ub2lpYZyFnsyWo7c3nMOQKJQudeyk1lw/JxdgeKT64w==}
+    engines: {node: ^18.18.0 || ^20.9.0 || >=21.1.0}
+    peerDependencies:
+      eslint: ^8.57.0 || ^9.0.0
+      vue-eslint-parser: ^10.0.0
+    dependencies:
+      '@eslint-community/eslint-utils': 4.4.1(eslint@9.21.0)
+      eslint: 9.21.0
+      natural-compare: 1.4.0
+      nth-check: 2.1.1
+      postcss-selector-parser: 6.0.15
+      semver: 7.7.1
+      vue-eslint-parser: 10.0.0(eslint@9.21.0)
+      xml-name-validator: 4.0.0
+    dev: true
+
   /eslint-plugin-vue@9.32.0(eslint@9.21.0):
     resolution: {integrity: sha512-b/Y05HYmnB/32wqVcjxjHZzNpwxj1onBOvqW89W+V+XNG1dRuaFbNd3vT9CLbr2LXjEoq+3vn8DanWf7XU22Ug==}
     engines: {node: ^14.17.0 || >=16.0.0}
@@ -3574,7 +3591,7 @@ packages:
       natural-compare: 1.4.0
       nth-check: 2.1.1
       postcss-selector-parser: 6.0.15
-      semver: 7.6.3
+      semver: 7.7.1
       vue-eslint-parser: 9.4.3(eslint@9.21.0)
       xml-name-validator: 4.0.0
     transitivePeerDependencies:
@@ -5817,12 +5834,6 @@ packages:
     hasBin: true
     dev: true
 
-  /semver@7.6.3:
-    resolution: {integrity: sha512-oVekP1cKtI+CTDvHWYFUcMtsK/00wmAEfyqKfNdARm8u1wNVhSgaX7A8d4UuIlUI5e84iEwOhs7ZPYRmzU9U6A==}
-    engines: {node: '>=10'}
-    hasBin: true
-    dev: true
-
   /semver@7.7.1:
     resolution: {integrity: sha512-hlq8tAfn0m/61p4BVRcPzIGr6LKiMwo4VM6dGi6pt4qcRkmNzTcWq6eCEjEh+qXjkMDvPlOFFSGwQjoEa6gyMA==}
     engines: {node: '>=10'}
@@ -6407,6 +6418,24 @@ packages:
     dependencies:
       vue: 2.7.16
     dev: false
+
+  /vue-eslint-parser@10.0.0(eslint@9.21.0):
+    resolution: {integrity: sha512-xGtmOQJzWUIi6opA7CfJTJsJyCRjibJKHNzq39yqJ/f4AJ+N7Ngr7lDZMl/9ePaobBnsZgifu+7G6bST+gaYJA==}
+    engines: {node: ^18.18.0 || ^20.9.0 || >=21.1.0}
+    peerDependencies:
+      eslint: ^8.57.0 || ^9.0.0
+    dependencies:
+      debug: 4.4.0
+      eslint: 9.21.0
+      eslint-scope: 8.2.0
+      eslint-visitor-keys: 4.2.0
+      espree: 10.3.0
+      esquery: 1.6.0
+      lodash: 4.17.21
+      semver: 7.7.1
+    transitivePeerDependencies:
+      - supports-color
+    dev: true
 
   /vue-eslint-parser@9.4.3(eslint@9.21.0):
     resolution: {integrity: sha512-2rYRLWlIpaiN8xbPiDyXZXRgLGOtWxERV7ND5fFAv5qo1D2N9Fu9MNajBNc6o13lZ+24DAWCkQCvj4klgmcITg==}
