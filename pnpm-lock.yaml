@@ -39,7 +39,7 @@ devDependencies:
     version: 6.9.18
   '@vitejs/plugin-legacy':
     specifier: ^6.1.1
-    version: 6.1.1(terser@5.39.1)(vite@6.3.5)
+    version: 6.1.1(terser@5.39.2)(vite@6.3.5)
   '@vitejs/plugin-vue2':
     specifier: ^2.3.3
     version: 2.3.3(vite@6.3.5)(vue@2.7.16)
@@ -80,8 +80,8 @@ devDependencies:
     specifier: ^3.5.3
     version: 3.5.3
   terser:
-    specifier: ^5.39.1
-    version: 5.39.1
+    specifier: ^5.39.2
+    version: 5.39.2
   typescript:
     specifier: ~5.8.3
     version: 5.8.3
@@ -90,7 +90,7 @@ devDependencies:
     version: 19.2.0
   vite:
     specifier: ^6.3.5
-    version: 6.3.5(@types/node@22.15.18)(less@4.3.0)(terser@5.39.1)
+    version: 6.3.5(@types/node@22.15.18)(less@4.3.0)(terser@5.39.2)
   vue-tsc:
     specifier: ^2.2.10
     version: 2.2.10(typescript@5.8.3)
@@ -2494,7 +2494,7 @@ packages:
     dev: true
     optional: true
 
-  /@vitejs/plugin-legacy@6.1.1(terser@5.39.1)(vite@6.3.5):
+  /@vitejs/plugin-legacy@6.1.1(terser@5.39.2)(vite@6.3.5):
     resolution: {integrity: sha512-BvusL+mYZ0q5qS5Rq3D70QxZBmhyiHRaXLtYJHH5AEsAmdSqJR4xe5KwMi1H3w8/9lVJwhkLYqFQ9vmWYWy6kA==}
     engines: {node: ^18.0.0 || ^20.0.0 || >=22.0.0}
     peerDependencies:
@@ -2509,8 +2509,8 @@ packages:
       magic-string: 0.30.17
       regenerator-runtime: 0.14.1
       systemjs: 6.15.1
-      terser: 5.39.1
-      vite: 6.3.5(@types/node@22.15.18)(less@4.3.0)(terser@5.39.1)
+      terser: 5.39.2
+      vite: 6.3.5(@types/node@22.15.18)(less@4.3.0)(terser@5.39.2)
     transitivePeerDependencies:
       - supports-color
     dev: true
@@ -2522,7 +2522,7 @@ packages:
       vite: ^3.0.0 || ^4.0.0 || ^5.0.0 || ^6.0.0
       vue: ^2.7.0-0
     dependencies:
-      vite: 6.3.5(@types/node@22.15.18)(less@4.3.0)(terser@5.39.1)
+      vite: 6.3.5(@types/node@22.15.18)(less@4.3.0)(terser@5.39.2)
       vue: 2.7.16
     dev: true
 
@@ -6476,8 +6476,8 @@ packages:
     engines: {node: '>=6'}
     dev: true
 
-  /terser@5.39.1:
-    resolution: {integrity: sha512-Mm6+uad0ZuDtcV8/4uOZQDQ8RuiC5Pu+iZRedJtF7yA/27sPL7d++In/AJKpWZlU3SYMPPkVfwetn6sgZ66pUA==}
+  /terser@5.39.2:
+    resolution: {integrity: sha512-yEPUmWve+VA78bI71BW70Dh0TuV4HHd+I5SHOAfS1+QBOmvmCiiffgjR8ryyEd3KIfvPGFqoADt8LdQ6XpXIvg==}
     engines: {node: '>=10'}
     hasBin: true
     dependencies:
@@ -6763,7 +6763,7 @@ packages:
     engines: {node: '>= 0.8'}
     dev: true
 
-  /vite@6.3.5(@types/node@22.15.18)(less@4.3.0)(terser@5.39.1):
+  /vite@6.3.5(@types/node@22.15.18)(less@4.3.0)(terser@5.39.2):
     resolution: {integrity: sha512-cZn6NDFE7wdTpINgs++ZJ4N49W2vRp8LCKrn3Ob1kYNtOo21vfDoaV5GzBfLU4MovSAB8uNRm4jgzVQZ+mBzPQ==}
     engines: {node: ^18.0.0 || ^20.0.0 || >=22.0.0}
     hasBin: true
@@ -6810,7 +6810,7 @@ packages:
       picomatch: 4.0.2
       postcss: 8.5.3
       rollup: 4.40.0
-      terser: 5.39.1
+      terser: 5.39.2
       tinyglobby: 0.2.13
     optionalDependencies:
       fsevents: 2.3.3
