@@ -28,7 +28,7 @@
     "@commitlint/config-conventional": "^19.8.1",
     "@types/node": "^22.16.0",
     "@types/qs": "^6.14.0",
-    "@vitejs/plugin-legacy": "^6.1.1",
+    "@vitejs/plugin-legacy": "^7.0.0",
     "@vitejs/plugin-vue2": "^2.3.3",
     "@vue/tsconfig": "^0.7.0",
     "commitizen": "^4.3.1",
